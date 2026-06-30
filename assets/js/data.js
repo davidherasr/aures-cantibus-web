@@ -74,7 +74,7 @@ window.AURES_DATA = {
       mapUrl: "https://www.google.com/maps/search/?api=1&query=Zamora",
       programUrl: "",
       short: "Encuentro de agrupaciones corales con repertorio variado y presencia de voces zamoranas.",
-      description: "Propuesta preparada como ejemplo de agenda. Sustituye estos datos por el concierto real cuando el coro confirme el calendario.",
+      description: "Encuentro de agrupaciones corales con repertorio variado y presencia de voces zamoranas. Sustituye estos datos por la información definitiva cuando el coro confirme el calendario.",
       featured: false
     },
     {
@@ -92,7 +92,7 @@ window.AURES_DATA = {
       mapUrl: "https://www.google.com/maps/search/?api=1&query=Zamora",
       programUrl: "",
       short: "Participación vinculada a la memoria patrimonial y musical de Zamora.",
-      description: "Actuación incorporada al archivo del coro como ejemplo de cómo deben presentarse las actuaciones realizadas: título claro, contexto, lugar, fecha y acceso a galería fotográfica.",
+      description: "Actuación incorporada al archivo del coro con título claro, contexto, lugar, fecha y acceso a galería fotográfica.",
       featured: false
     }
   ],
@@ -105,8 +105,8 @@ window.AURES_DATA = {
       place: "Zamora",
       category: "Acto cultural",
       cover: "assets/img/gallery/ramon-alvarez-2025-cover.jpg",
-      lead: "Una galería pensada para conservar memoria visual de cada actuación, con imagen destacada, lugar, fecha y fotografías navegables.",
-      description: "Este modelo de galería sirve para transformar cada actuación en una página propia, más elegante y útil que subir fotografías sueltas sin contexto.",
+      lead: "Memoria visual de una actuación vinculada al patrimonio, con fecha, lugar, contexto e imágenes navegables.",
+      description: "Cada actuación se presenta como una pieza de archivo: imagen principal, contexto, lugar, fecha y fotografías navegables.",
       images: [
         { src: "assets/img/gallery/ramon-01.jpg", caption: "Vista general del coro durante la actuación" },
         { src: "assets/img/gallery/ramon-02.jpg", caption: "Dirección musical y conjunto vocal" },
@@ -228,12 +228,12 @@ window.AURES_DATA = {
   news: [
     {
       id: "nueva-web-aures-cantibus",
-      title: "Nueva web oficial de Aures Cantibus",
+      title: "Nueva presencia digital de Aures Cantibus",
       date: "2026-06-28",
       image: "assets/img/hero-coro-warm.jpg",
-      tag: "Web",
-      excerpt: "Una propuesta digital para ordenar agenda, galería, repertorio y contacto de la coral.",
-      body: "La web nace con una idea clara: ofrecer una presencia digital sobria, profesional y fácil de mantener, sin perder el carácter coral y patrimonial de Aures Cantibus."
+      tag: "Actualidad",
+      excerpt: "Una presencia digital más elegante para presentar agenda, galería, repertorio y contacto de la coral.",
+      body: "La página oficial se plantea como un espacio sobrio, profesional y fácil de mantener, sin perder el carácter coral, patrimonial y zamorano de Aures Cantibus."
     },
     {
       id: "archivo-repertorio",

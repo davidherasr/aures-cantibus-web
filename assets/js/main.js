@@ -668,3 +668,107 @@
     initReveals();
   });
 })();
+
+/* AURES CANTIBUS · Capa V2 de interacción editorial */
+(() => {
+  const DATA = window.AURES_DATA || {};
+  const $ = (selector, ctx = document) => ctx.querySelector(selector);
+  const $$ = (selector, ctx = document) => Array.from(ctx.querySelectorAll(selector));
+  const escapeHTML = (str = '') => String(str)
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#039;');
+
+  function initScrollProgress() {
+    const bar = $('.scroll-progress span');
+    if (!bar) return;
+    const update = () => {
+      const max = document.documentElement.scrollHeight - window.innerHeight;
+      const p = max > 0 ? Math.min(window.scrollY / max, 1) * 100 : 0;
+      bar.style.width = `${p}%`;
+    };
+    update();
+    window.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+  }
+
+  function initAmbientSpotlight() {
+    const spotlight = $('.ambient-spotlight');
+    if (!spotlight || window.matchMedia('(pointer: coarse)').matches) return;
+    window.addEventListener('pointermove', (event) => {
+      document.documentElement.style.setProperty('--spot-x', `${event.clientX}px`);
+      document.documentElement.style.setProperty('--spot-y', `${event.clientY}px`);
+    }, { passive: true });
+  }
+
+  function initMagneticButtons() {
+    if (window.matchMedia('(pointer: coarse)').matches || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    $$('.magnetic').forEach((el) => {
+      el.addEventListener('pointermove', (event) => {
+        const rect = el.getBoundingClientRect();
+        const x = (event.clientX - rect.left - rect.width / 2) / rect.width;
+        const y = (event.clientY - rect.top - rect.height / 2) / rect.height;
+        el.style.transform = `translate(${x * 8}px, ${y * 7}px)`;
+      });
+      el.addEventListener('pointerleave', () => {
+        el.style.transform = '';
+      });
+    });
+  }
+
+  function renderRepertoireSpotlight() {
+    const root = $('#repertoire-spotlight');
+    if (!root) return;
+    const selected = (DATA.repertoire || [])
+      .filter((item) => ['Música sacra', 'Canción popular', 'Música antigua', 'Villancicos y Navidad', 'Grandes obras'].includes(item.category))
+      .slice(0, 6);
+    root.innerHTML = selected.map((item) => `
+      <div class="score-item">
+        <div>
+          <strong>${escapeHTML(item.title)}</strong>
+          <span>${escapeHTML(item.composer)} · ${escapeHTML(item.origin)}</span>
+        </div>
+        <em>${escapeHTML(item.category)}</em>
+      </div>`).join('');
+  }
+
+  function enhanceContactEmail() {
+    const contactBlocks = $$('[data-contact-email]');
+    const email = DATA.site?.contactEmail || 'contacto@aurescantibus.es';
+    contactBlocks.forEach((link) => {
+      const parent = link.parentElement;
+      if (!parent || parent.querySelector('.copy-email')) return;
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'btn btn-small btn-line copy-email';
+      btn.textContent = 'Copiar correo';
+      btn.addEventListener('click', async () => {
+        try {
+          await navigator.clipboard.writeText(email);
+          btn.textContent = 'Correo copiado';
+          setTimeout(() => { btn.textContent = 'Copiar correo'; }, 1600);
+        } catch {
+          btn.textContent = email;
+        }
+      });
+      parent.appendChild(btn);
+    });
+  }
+
+  function markExternalOldBlog() {
+    $$('a[href*="blogspot.com"]').forEach((a) => {
+      a.title = 'Archivo anterior de Aures Cantibus';
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    initScrollProgress();
+    initAmbientSpotlight();
+    initMagneticButtons();
+    renderRepertoireSpotlight();
+    enhanceContactEmail();
+    markExternalOldBlog();
+  });
+})();

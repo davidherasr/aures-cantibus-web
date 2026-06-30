@@ -20,6 +20,8 @@
 <body>
 
 <a class="skip-link" href="#main">Saltar al contenido</a>
+<div class="scroll-progress" aria-hidden="true"><span></span></div>
+<div class="ambient-spotlight" aria-hidden="true"></div>
 <header class="site-header header-light">
   <div class="header-inner">
     <a class="brand" href="index.html" aria-label="Aures Cantibus · Inicio">
@@ -39,7 +41,7 @@
       <a href="canta.html">Canta</a>
       <a href="contacto.html">Contacto</a>
     </nav>
-    <a class="header-cta" href="contacto.html">Contratación</a>
+    <a class="header-cta magnetic" href="contacto.html">Contratación</a>
   </div>
 </header>
 
@@ -51,11 +53,17 @@
       <span class="hero-kicker">Error 404</span>
       <h1 class="page-title">Página no encontrada.</h1>
       <p class="page-lead">Puede que la dirección haya cambiado o que la página aún no exista.</p>
-      <div class="hero-actions"><a class="btn btn-primary" href="index.html">Volver al inicio</a><a class="btn btn-secondary" href="contacto.html">Contactar</a></div>
+      <div class="hero-actions"><a class="btn btn-primary magnetic" href="index.html">Volver al inicio</a><a class="btn btn-secondary magnetic" href="contacto.html">Contactar</a></div>
     </div>
   </section>
 </main>
 
+
+<nav class="floating-actions" aria-label="Accesos rápidos">
+  <a href="agenda.html">Agenda</a>
+  <a href="canta.html">Canta</a>
+  <a href="contacto.html">Contacto</a>
+</nav>
 
 <footer class="site-footer">
   <div class="footer-inner">
@@ -63,7 +71,7 @@
       <div class="footer-col">
         <img class="footer-logo" src="assets/img/logo-aures-cantibus.png" alt="Logo de Aures Cantibus">
         <span class="footer-title">Aures Cantibus</span>
-        <p class="footer-text">Coral de voces mixtas ubicada en Zamora. Una web pensada para ordenar agenda, memoria visual, repertorio y contacto sin perder identidad coral.</p>
+        <p class="footer-text">Coral de voces mixtas ubicada en Zamora. Música coral, patrimonio, repertorio amplio y vida cultural compartida.</p>
       </div>
       <div class="footer-col">
         <h3>Web</h3>
@@ -89,7 +97,7 @@
     </div>
     <div class="footer-bottom">
       <span>© <span data-year></span> <span data-site="legalOwner">Asociación Coral Aures Cantibus</span></span>
-      <span>Zamora · Diseño web estático preparado para GitHub Pages, Vercel o Netlify.</span>
+      <span>Zamora · Web estática preparada para GitHub Pages, Vercel o Netlify.</span>
     </div>
   </div>
 </footer>
