@@ -1,0 +1,282 @@
+[
+  {
+    "title": "Ave María",
+    "composer": "Tomás Luis de Victoria",
+    "category": "Música sacra",
+    "origin": "España",
+    "period": "Renacimiento",
+    "featured": true
+  },
+  {
+    "title": "Ave María",
+    "composer": "David Rivas",
+    "category": "Autores vinculados a Zamora",
+    "origin": "Zamora",
+    "period": "Contemporánea",
+    "featured": true
+  },
+  {
+    "title": "Stabat Mater",
+    "composer": "David Rivas",
+    "category": "Autores vinculados a Zamora",
+    "origin": "Zamora",
+    "period": "Contemporánea",
+    "featured": true
+  },
+  {
+    "title": "Bolero de Algodre",
+    "composer": "Canción popular de Zamora",
+    "category": "Canción popular zamorana",
+    "origin": "Zamora",
+    "period": "Popular",
+    "featured": true
+  },
+  {
+    "title": "Ronda de Carballeda",
+    "composer": "Popular",
+    "category": "Canción popular zamorana",
+    "origin": "Zamora",
+    "period": "Popular",
+    "featured": true
+  },
+  {
+    "title": "Shchedryk",
+    "composer": "Mykola Leontóvych",
+    "category": "Villancicos y Navidad",
+    "origin": "Ucrania",
+    "period": "Siglo XX",
+    "featured": true
+  },
+  {
+    "title": "Dadme albricias",
+    "composer": "Anónimo s. XVI",
+    "category": "Villancicos y Navidad",
+    "origin": "Cancionero de Upsala",
+    "period": "Renacimiento"
+  },
+  {
+    "title": "No la devemos dormir",
+    "composer": "Anónimo",
+    "category": "Villancicos y Navidad",
+    "origin": "Cancionero de Upsala",
+    "period": "Renacimiento"
+  },
+  {
+    "title": "Verbum caro",
+    "composer": "Anónimo s. XVI",
+    "category": "Villancicos y Navidad",
+    "origin": "Cancionero de Upsala",
+    "period": "Renacimiento"
+  },
+  {
+    "title": "Noche de paz",
+    "composer": "Popular alemán",
+    "category": "Villancicos y Navidad",
+    "origin": "Alemania",
+    "period": "Tradicional"
+  },
+  {
+    "title": "Noël ukrainien",
+    "composer": "Anónimo s. XVIII · adap. Oksana K.",
+    "category": "Villancicos y Navidad",
+    "origin": "Ucrania",
+    "period": "Tradicional"
+  },
+  {
+    "title": "A la Nanita Nana",
+    "composer": "Popular de Málaga",
+    "category": "Nanas",
+    "origin": "España",
+    "period": "Popular"
+  },
+  {
+    "title": "Nana para coro mixto",
+    "composer": "David Rivas",
+    "category": "Nanas",
+    "origin": "Zamora",
+    "period": "Contemporánea"
+  },
+  {
+    "title": "Canto de Berce",
+    "composer": "R. Groba",
+    "category": "Nanas",
+    "origin": "Galicia",
+    "period": "Contemporánea"
+  },
+  {
+    "title": "Agnus Dei · Missa Brevis",
+    "composer": "A. Lotti",
+    "category": "Música sacra",
+    "origin": "Italia",
+    "period": "Barroco"
+  },
+  {
+    "title": "Alleluia, Benedicat vobis",
+    "composer": "Haendel",
+    "category": "Música sacra",
+    "origin": "Europa",
+    "period": "Barroco"
+  },
+  {
+    "title": "Anima Christi",
+    "composer": "Marco Frisina",
+    "category": "Música sacra",
+    "origin": "Italia",
+    "period": "Contemporánea"
+  },
+  {
+    "title": "Ave María",
+    "composer": "J. Arcadelt",
+    "category": "Música sacra",
+    "origin": "Europa",
+    "period": "Renacimiento"
+  },
+  {
+    "title": "Ave Verum Corpus",
+    "composer": "E. Satué",
+    "category": "Música sacra",
+    "origin": "España",
+    "period": "Contemporánea"
+  },
+  {
+    "title": "Canticorum iubilo",
+    "composer": "Haendel",
+    "category": "Música sacra",
+    "origin": "Europa",
+    "period": "Barroco"
+  },
+  {
+    "title": "Dona nobis pacem",
+    "composer": "Mozart",
+    "category": "Música sacra",
+    "origin": "Austria",
+    "period": "Clasicismo"
+  },
+  {
+    "title": "Pan divino y gracioso",
+    "composer": "Francisco Guerrero",
+    "category": "Música sacra",
+    "origin": "España",
+    "period": "Renacimiento"
+  },
+  {
+    "title": "Panis Angelicus",
+    "composer": "Hilarión Eslava",
+    "category": "Música sacra",
+    "origin": "España",
+    "period": "Romanticismo"
+  },
+  {
+    "title": "Amor que me cautivas",
+    "composer": "Anónimo s. XVI",
+    "category": "Renacimiento y música antigua",
+    "origin": "España",
+    "period": "Renacimiento"
+  },
+  {
+    "title": "Ay linda amiga",
+    "composer": "Anónimo s. XVI",
+    "category": "Renacimiento y música antigua",
+    "origin": "España",
+    "period": "Renacimiento"
+  },
+  {
+    "title": "Ay luna que reluces",
+    "composer": "Anónimo s. XVI",
+    "category": "Renacimiento y música antigua",
+    "origin": "Cancionero de Upsala",
+    "period": "Renacimiento"
+  },
+  {
+    "title": "Ay triste que vengo",
+    "composer": "Juan del Encina",
+    "category": "Renacimiento y música antigua",
+    "origin": "España",
+    "period": "Renacimiento"
+  },
+  {
+    "title": "Con qué la lavaré",
+    "composer": "Juan Vásquez",
+    "category": "Renacimiento y música antigua",
+    "origin": "España",
+    "period": "Renacimiento"
+  },
+  {
+    "title": "Hoy comamos y bebamos",
+    "composer": "Juan del Encina",
+    "category": "Renacimiento y música antigua",
+    "origin": "España",
+    "period": "Renacimiento"
+  },
+  {
+    "title": "Il est bel et bon",
+    "composer": "Pierre Passereau",
+    "category": "Renacimiento y música antigua",
+    "origin": "Francia",
+    "period": "Renacimiento"
+  },
+  {
+    "title": "Riu riu chiu",
+    "composer": "Anónimo s. XVI",
+    "category": "Renacimiento y música antigua",
+    "origin": "Cancionero de Upsala",
+    "period": "Renacimiento"
+  },
+  {
+    "title": "Tourdion",
+    "composer": "Pierre Attaingnant",
+    "category": "Renacimiento y música antigua",
+    "origin": "Francia",
+    "period": "Renacimiento"
+  },
+  {
+    "title": "Bullerengue",
+    "composer": "Ritmo colombiano",
+    "category": "Canción popular",
+    "origin": "Colombia",
+    "period": "Popular"
+  },
+  {
+    "title": "Camino del Indio",
+    "composer": "Popular",
+    "category": "Canción popular",
+    "origin": "Argentina",
+    "period": "Popular"
+  },
+  {
+    "title": "Flores de amor",
+    "composer": "Lorenzo García Morillas",
+    "category": "Canción popular",
+    "origin": "Habanera",
+    "period": "Popular"
+  },
+  {
+    "title": "Gaudeamus Igitur",
+    "composer": "Estudiantil tradicional",
+    "category": "Canción popular",
+    "origin": "Europa",
+    "period": "Tradicional"
+  },
+  {
+    "title": "Nerea izango zen",
+    "composer": "Popular vasca · arm. Javi Busto",
+    "category": "Canción popular",
+    "origin": "País Vasco",
+    "period": "Popular"
+  },
+  {
+    "title": "O voso galo comadre",
+    "composer": "Canción gallega",
+    "category": "Canción popular",
+    "origin": "Galicia",
+    "period": "Popular"
+  },
+  {
+    "title": "Va pensiero",
+    "composer": "Giuseppe Verdi",
+    "category": "Grandes obras",
+    "origin": "Italia",
+    "period": "Romanticismo",
+    "featured": true
+  }
+]

@@ -1,0 +1,118 @@
+[
+  {
+    "id": "ramon-alvarez-2025",
+    "title": "Las huellas de Ramón Álvarez en la Pasión de Zamora",
+    "date": "2025-03-24",
+    "place": "Zamora",
+    "category": "Semana Santa",
+    "region": "Zamora",
+    "cover": "assets/img/gallery/ramon-alvarez-2025-cover.jpg",
+    "lead": "Memoria visual de una actuación vinculada al patrimonio religioso, artístico y musical de Zamora.",
+    "description": "Esta galería está planteada como una memoria de actuación, no como un simple álbum: conserva fecha, lugar, contexto y fotografías navegables para que cada cita tenga continuidad dentro del archivo coral.",
+    "images": [
+      {
+        "src": "assets/img/gallery/ramon-01.jpg",
+        "caption": "Vista general del coro durante la actuación"
+      },
+      {
+        "src": "assets/img/gallery/ramon-02.jpg",
+        "caption": "Dirección musical y conjunto vocal"
+      },
+      {
+        "src": "assets/img/gallery/ramon-03.jpg",
+        "caption": "Agrupación coral sobre escenario"
+      },
+      {
+        "src": "assets/img/gallery/ramon-04.jpg",
+        "caption": "Detalle de voces y carpetas corales"
+      },
+      {
+        "src": "assets/img/gallery/ramon-05.jpg",
+        "caption": "Momento central del programa"
+      },
+      {
+        "src": "assets/img/gallery/ramon-06.jpg",
+        "caption": "Archivo visual de Aures Cantibus"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "navidad-san-lazaro",
+    "title": "Concierto de Navidad · Archivo",
+    "date": "2024-12-22",
+    "place": "Zamora",
+    "category": "Navidad",
+    "region": "Zamora",
+    "cover": "assets/img/gallery/navidad-san-lazaro-cover.jpg",
+    "lead": "Repertorio navideño, música sacra y tradición popular dentro de la memoria anual del coro.",
+    "description": "Galería preparada para conciertos navideños. Cuando tengas fotos reales de esa actuación, basta con sustituir las imágenes de esta ficha.",
+    "images": [
+      {
+        "src": "assets/img/gallery/navidad-san-lazaro-cover.jpg",
+        "caption": "Concierto de Navidad"
+      },
+      {
+        "src": "assets/img/gallery/ramon-02.jpg",
+        "caption": "Canto coral"
+      },
+      {
+        "src": "assets/img/gallery/ramon-03.jpg",
+        "caption": "Archivo del coro"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "id": "encuentro-zamora",
+    "title": "Encuentro Coral en Zamora",
+    "date": "2024-06-15",
+    "place": "Zamora",
+    "category": "Encuentros corales",
+    "region": "Zamora",
+    "cover": "assets/img/gallery/encuentro-zamora-cover.jpg",
+    "lead": "Participación en encuentros corales y proyectos compartidos con otras agrupaciones.",
+    "description": "Modelo de galería para encuentros, intercambios y actuaciones compartidas con otros coros.",
+    "images": [
+      {
+        "src": "assets/img/gallery/encuentro-zamora-cover.jpg",
+        "caption": "Encuentro coral"
+      },
+      {
+        "src": "assets/img/gallery/ramon-04.jpg",
+        "caption": "Voces mixtas"
+      },
+      {
+        "src": "assets/img/gallery/ramon-05.jpg",
+        "caption": "Escenario"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "id": "archivo-coral",
+    "title": "Archivo histórico de Aures Cantibus",
+    "date": "2023-09-01",
+    "place": "Zamora y provincia",
+    "category": "Archivo histórico",
+    "region": "Zamora y provincia",
+    "cover": "assets/img/gallery/archivo-coral-cover.jpg",
+    "lead": "Una memoria ordenada de actuaciones, viajes, encuentros y momentos del coro.",
+    "description": "Bloque pensado para fotografías antiguas, colecciones mixtas o actuaciones de las que no se conserve un reportaje completo.",
+    "images": [
+      {
+        "src": "assets/img/gallery/archivo-coral-cover.jpg",
+        "caption": "Archivo coral"
+      },
+      {
+        "src": "assets/img/gallery/ramon-01.jpg",
+        "caption": "Memoria musical"
+      },
+      {
+        "src": "assets/img/gallery/ramon-06.jpg",
+        "caption": "Aures Cantibus"
+      }
+    ],
+    "featured": false
+  }
+]

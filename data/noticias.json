@@ -1,0 +1,20 @@
+[
+  {
+    "id": "nueva-web-aures-cantibus",
+    "title": "Nueva presencia digital de Aures Cantibus",
+    "date": "2026-06-28",
+    "image": "assets/img/hero-coro-warm.jpg",
+    "tag": "Actualidad",
+    "excerpt": "Una web más editorial para presentar agenda, archivo visual, repertorio y contacto institucional.",
+    "body": "La página se plantea como un espacio sobrio, profesional y fácil de mantener, con identidad coral, patrimonial y zamorana."
+  },
+  {
+    "id": "archivo-repertorio",
+    "title": "Repertorio ordenado por familias musicales",
+    "date": "2026-06-20",
+    "image": "assets/img/gallery/archivo-coral-cover.jpg",
+    "tag": "Repertorio",
+    "excerpt": "Música sacra, villancicos, canción popular, nanas, música antigua y grandes obras en una estructura consultable.",
+    "body": "La clasificación permite consultar rápidamente obras por categoría, compositor, origen y época."
+  }
+]

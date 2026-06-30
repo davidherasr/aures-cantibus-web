@@ -1,0 +1,18 @@
+[
+  {
+    "q": "¿Hace falta experiencia previa?",
+    "a": "No es imprescindible tener trayectoria coral profesional, pero sí compromiso, oído, regularidad en ensayos y disposición para integrarse en un trabajo musical colectivo."
+  },
+  {
+    "q": "¿Qué voces forman el coro?",
+    "a": "Como coral mixta, Aures Cantibus trabaja con cuerdas de soprano, contralto, tenor y bajo. Si no sabes tu cuerda, puede valorarse en un primer contacto."
+  },
+  {
+    "q": "¿Se puede contratar al coro para un acto?",
+    "a": "Sí. La página de contacto permite solicitar información para conciertos, actos religiosos, encuentros corales, eventos culturales o colaboraciones institucionales."
+  },
+  {
+    "q": "¿Cómo se actualizan los contenidos?",
+    "a": "La versión V3 mantiene datos centralizados en JavaScript y añade una carpeta data/ con JSON separados por agenda, galerías, repertorio y noticias para facilitar una futura administración por secciones."
+  }
+]
